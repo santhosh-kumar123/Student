@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.Appdiv{
+     /* background-image:linear-gradient(to left bottom, #6b93cf69, #004d7a66, #0087936b, #00bf7339, #a6eb126b), url("https://cdn.pixabay.com/photo/2016/11/08/05/10/students-1807505__340.jpg"); */
+     background-image:linear-gradient(to left bottom, #6b93cf69, #004d7a22, #0087936b, #00bf7339, #a6eb126b);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* opacity: 0.1; */
+    position: relative;
+   
+}
+
+.modeldiv{
+        position: absolute;
+    	background-color:#fff;
+       top: 0;
+       margin-left: 650px;
+       margin-top: 250px;
+        height: 450px;
+        width: 400px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px 0px;
+         animation: myfirst 5s;
+  animation-duration: 2s;
+  animation-direction: alternate;
+}
+@keyframes myfirst {
+  0% {
+    width: 0%;
+    /* height: 0%; */
+  }
+  100% {
+   width:23.5%;
+   /* height:56%; */
+  }
+}  
+.modeldiv h1{
+    text-align: center;
+    /* text-decoration: underline; */
+}
+.modeldiv label{
+    margin-left: 10px;
+    font-weight: 400;
+}
+.modeldiv input{
+    margin-left: 10px;
+    width: 90%;
+}
+.modeldiv label{
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.modeldiv button{
+    height: 40px;
+    width: 130px;
+    background-color: rgb(181, 176, 176);
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 1px;
+    transition: 0.3s;
+    text-align: center;
+    margin-left: 135px;
+    text-transform: capitalize;
+}
+.modeldiv button:hover{
+    background-color: rgb(148, 98, 98);
+}
+
+.Portalbutton{
+    /* height: 40px; */
+    /* width: 100px; */
+   border: none;
+   border-radius: 5px;
+}
+.Portalbutton:hover{
+    background-color: aquamarine;
+}
